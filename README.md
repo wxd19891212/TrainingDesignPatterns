@@ -1,2 +1,2 @@
 # TrainingDesignPatterns
-把大话设计模式书上的练习携程OC的Demo
+把大话设计模式书上的练习以OC方式实现

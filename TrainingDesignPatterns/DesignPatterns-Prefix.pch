@@ -1,0 +1,18 @@
+//
+//  DesignPatterns-Prefix.pch
+//  TrainingDesignPatterns
+//
+//  Created by wxd on 2017/12/27.
+//  Copyright © 2017年 wxd. All rights reserved.
+//
+
+#ifndef DesignPatterns_Prefix_pch
+#define DesignPatterns_Prefix_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#endif /* DesignPatterns_Prefix_pch */
+

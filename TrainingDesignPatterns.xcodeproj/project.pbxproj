@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F86D91C720107F5A00E2979E /* TestPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = F86D91C620107F5A00E2979E /* TestPaper.m */; };
+		F86D91CA2010824500E2979E /* TestPaperStudentA.m in Sources */ = {isa = PBXBuildFile; fileRef = F86D91C92010824500E2979E /* TestPaperStudentA.m */; };
+		F86D91CD2010828C00E2979E /* TestPaperStudentB.m in Sources */ = {isa = PBXBuildFile; fileRef = F86D91CC2010828C00E2979E /* TestPaperStudentB.m */; };
+		F86D91D0201082FC00E2979E /* TemplateMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F86D91CF201082FC00E2979E /* TemplateMethodTests.m */; };
+		F86D91D42010897400E2979E /* Fund.m in Sources */ = {isa = PBXBuildFile; fileRef = F86D91D32010897400E2979E /* Fund.m */; };
+		F86D91D820108B0D00E2979E /* NationalDebt.m in Sources */ = {isa = PBXBuildFile; fileRef = F86D91D720108B0D00E2979E /* NationalDebt.m */; };
+		F86D91DB20108B7900E2979E /* Realty.m in Sources */ = {isa = PBXBuildFile; fileRef = F86D91DA20108B7900E2979E /* Realty.m */; };
+		F86D91DE20108BBC00E2979E /* Stock1.m in Sources */ = {isa = PBXBuildFile; fileRef = F86D91DD20108BBC00E2979E /* Stock1.m */; };
+		F86D91E120108BC700E2979E /* Stock2.m in Sources */ = {isa = PBXBuildFile; fileRef = F86D91E020108BC700E2979E /* Stock2.m */; };
+		F86D91E420108BD200E2979E /* Stock3.m in Sources */ = {isa = PBXBuildFile; fileRef = F86D91E320108BD200E2979E /* Stock3.m */; };
+		F86D91E720108CA600E2979E /* Investor.m in Sources */ = {isa = PBXBuildFile; fileRef = F86D91E620108CA600E2979E /* Investor.m */; };
+		F86D91EA2010922B00E2979E /* FacadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F86D91E92010922B00E2979E /* FacadeTests.m */; };
 		F8C6F5E11FF34158009F8244 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F5E01FF34158009F8244 /* AppDelegate.m */; };
 		F8C6F5E41FF34158009F8244 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F5E31FF34158009F8244 /* ViewController.m */; };
 		F8C6F5E71FF34158009F8244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C6F5E51FF34158009F8244 /* Main.storyboard */; };
@@ -15,6 +27,46 @@
 		F8C6F5EF1FF34158009F8244 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F5EE1FF34158009F8244 /* main.m */; };
 		F8C6F5F91FF34158009F8244 /* TrainingDesignPatternsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F5F81FF34158009F8244 /* TrainingDesignPatternsTests.m */; };
 		F8C6F6041FF34158009F8244 /* TrainingDesignPatternsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6031FF34158009F8244 /* TrainingDesignPatternsUITests.m */; };
+		F8C6F6151FF347FC009F8244 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6141FF347FC009F8244 /* Operation.m */; };
+		F8C6F6181FF34818009F8244 /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6171FF34818009F8244 /* OperationAdd.m */; };
+		F8C6F61B1FF3482B009F8244 /* OperationSub.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F61A1FF3482B009F8244 /* OperationSub.m */; };
+		F8C6F61E1FF3483C009F8244 /* OperationMul.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F61D1FF3483C009F8244 /* OperationMul.m */; };
+		F8C6F6211FF3484E009F8244 /* OperationDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6201FF3484E009F8244 /* OperationDiv.m */; };
+		F8C6F6241FF34863009F8244 /* OperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6231FF34863009F8244 /* OperationFactory.m */; };
+		F8C6F6271FF349D7009F8244 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C6F6261FF349D7009F8244 /* CoreGraphics.framework */; };
+		F8C6F6291FF34C1B009F8244 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C6F6281FF34C1B009F8244 /* UIKit.framework */; };
+		F8C6F62C1FF372CE009F8244 /* SimpleFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F62B1FF372CD009F8244 /* SimpleFactoryTests.m */; };
+		F8C6F6311FF39312009F8244 /* CashSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6301FF39312009F8244 /* CashSuper.m */; };
+		F8C6F6341FF3936E009F8244 /* CashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6331FF3936E009F8244 /* CashNormal.m */; };
+		F8C6F6371FF39470009F8244 /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6361FF39470009F8244 /* CashRebate.m */; };
+		F8C6F63A1FF39528009F8244 /* CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6391FF39528009F8244 /* CashReturn.m */; };
+		F8C6F63D1FF395DD009F8244 /* CashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F63C1FF395DD009F8244 /* CashContext.m */; };
+		F8C6F6401FF39A3F009F8244 /* StrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F63F1FF39A3F009F8244 /* StrategyTests.m */; };
+		F8C6F6441FF3DFB5009F8244 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6431FF3DFB5009F8244 /* Person.m */; };
+		F8C6F6471FF3DFCC009F8244 /* Finery.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6461FF3DFCC009F8244 /* Finery.m */; };
+		F8C6F64A1FF3E5FE009F8244 /* TShirts.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6491FF3E5FE009F8244 /* TShirts.m */; };
+		F8C6F64D1FF3E703009F8244 /* BigTrouser.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F64C1FF3E703009F8244 /* BigTrouser.m */; };
+		F8C6F6501FF3E74B009F8244 /* Sneakers.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F64F1FF3E74B009F8244 /* Sneakers.m */; };
+		F8C6F6531FF3E7A3009F8244 /* DecoratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6521FF3E7A3009F8244 /* DecoratorTests.m */; };
+		F8C6F6591FF3FD82009F8244 /* Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6581FF3FD82009F8244 /* Proxy.m */; };
+		F8C6F65C1FF3FE03009F8244 /* SchoolGirl.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F65B1FF3FE03009F8244 /* SchoolGirl.m */; };
+		F8C6F65F1FF3FE4F009F8244 /* Pursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F65E1FF3FE4F009F8244 /* Pursuit.m */; };
+		F8C6F6641FF6747A009F8244 /* UndergraduateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6631FF6747A009F8244 /* UndergraduateFactory.m */; };
+		F8C6F6671FF6751C009F8244 /* Undergraduate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6661FF6751C009F8244 /* Undergraduate.m */; };
+		F8C6F66B1FF67A67009F8244 /* ProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F66A1FF67A67009F8244 /* ProxyTests.m */; };
+		F8C6F66E1FF67D39009F8244 /* FactoryMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F66D1FF67D39009F8244 /* FactoryMethodTests.m */; };
+		F8C6F6711FF67EA1009F8244 /* Volunteer.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6701FF67EA1009F8244 /* Volunteer.m */; };
+		F8C6F6741FF67EF1009F8244 /* VolunteerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6731FF67EF1009F8244 /* VolunteerFactory.m */; };
+		F8C6F6791FFBDCD2009F8244 /* NewFinery.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6781FFBDCD2009F8244 /* NewFinery.m */; };
+		F8C6F67C1FFBDE1A009F8244 /* NewPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F67B1FFBDE1A009F8244 /* NewPerson.m */; };
+		F8C6F67F1FFBDFDC009F8244 /* NewTShirts.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F67E1FFBDFDC009F8244 /* NewTShirts.m */; };
+		F8C6F6821FFBDFED009F8244 /* NewBigTrouser.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6811FFBDFED009F8244 /* NewBigTrouser.m */; };
+		F8C6F6851FFBDFFC009F8244 /* NewSneakers.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6841FFBDFFC009F8244 /* NewSneakers.m */; };
+		F8C6F6891FFCCE1C009F8244 /* Resume.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6881FFCCE1C009F8244 /* Resume.m */; };
+		F8C6F68C1FFCD0A9009F8244 /* WorkExperience.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F68B1FFCD0A9009F8244 /* WorkExperience.m */; };
+		F8C6F68F1FFCD1E1009F8244 /* PrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F68E1FFCD1E1009F8244 /* PrototypeTests.m */; };
+		F8C6F6921FFCDB07009F8244 /* ResumeShallowCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6911FFCDB07009F8244 /* ResumeShallowCopy.m */; };
+		F8C6F6951FFCDBA2009F8244 /* ResumeDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F6941FFCDBA2009F8244 /* ResumeDeepCopy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +87,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F86D91C520107F5A00E2979E /* TestPaper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPaper.h; sourceTree = "<group>"; };
+		F86D91C620107F5A00E2979E /* TestPaper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPaper.m; sourceTree = "<group>"; };
+		F86D91C82010824500E2979E /* TestPaperStudentA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPaperStudentA.h; sourceTree = "<group>"; };
+		F86D91C92010824500E2979E /* TestPaperStudentA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPaperStudentA.m; sourceTree = "<group>"; };
+		F86D91CB2010828C00E2979E /* TestPaperStudentB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPaperStudentB.h; sourceTree = "<group>"; };
+		F86D91CC2010828C00E2979E /* TestPaperStudentB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPaperStudentB.m; sourceTree = "<group>"; };
+		F86D91CF201082FC00E2979E /* TemplateMethodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateMethodTests.m; sourceTree = "<group>"; };
+		F86D91D22010897400E2979E /* Fund.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fund.h; sourceTree = "<group>"; };
+		F86D91D32010897400E2979E /* Fund.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fund.m; sourceTree = "<group>"; };
+		F86D91D5201089F100E2979E /* Investment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Investment.h; sourceTree = "<group>"; };
+		F86D91D620108B0D00E2979E /* NationalDebt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NationalDebt.h; sourceTree = "<group>"; };
+		F86D91D720108B0D00E2979E /* NationalDebt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NationalDebt.m; sourceTree = "<group>"; };
+		F86D91D920108B7900E2979E /* Realty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Realty.h; sourceTree = "<group>"; };
+		F86D91DA20108B7900E2979E /* Realty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Realty.m; sourceTree = "<group>"; };
+		F86D91DC20108BBC00E2979E /* Stock1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stock1.h; sourceTree = "<group>"; };
+		F86D91DD20108BBC00E2979E /* Stock1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stock1.m; sourceTree = "<group>"; };
+		F86D91DF20108BC700E2979E /* Stock2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stock2.h; sourceTree = "<group>"; };
+		F86D91E020108BC700E2979E /* Stock2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stock2.m; sourceTree = "<group>"; };
+		F86D91E220108BD200E2979E /* Stock3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stock3.h; sourceTree = "<group>"; };
+		F86D91E320108BD200E2979E /* Stock3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stock3.m; sourceTree = "<group>"; };
+		F86D91E520108CA600E2979E /* Investor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Investor.h; sourceTree = "<group>"; };
+		F86D91E620108CA600E2979E /* Investor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Investor.m; sourceTree = "<group>"; };
+		F86D91E92010922B00E2979E /* FacadeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadeTests.m; sourceTree = "<group>"; };
 		F8C6F5DC1FF34158009F8244 /* TrainingDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainingDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C6F5DF1FF34158009F8244 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F8C6F5E01FF34158009F8244 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +126,84 @@
 		F8C6F5FF1FF34158009F8244 /* TrainingDesignPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainingDesignPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C6F6031FF34158009F8244 /* TrainingDesignPatternsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainingDesignPatternsUITests.m; sourceTree = "<group>"; };
 		F8C6F6051FF34158009F8244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C6F6131FF347FC009F8244 /* Operation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
+		F8C6F6141FF347FC009F8244 /* Operation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
+		F8C6F6161FF34818009F8244 /* OperationAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationAdd.h; sourceTree = "<group>"; };
+		F8C6F6171FF34818009F8244 /* OperationAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationAdd.m; sourceTree = "<group>"; };
+		F8C6F6191FF3482B009F8244 /* OperationSub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationSub.h; sourceTree = "<group>"; };
+		F8C6F61A1FF3482B009F8244 /* OperationSub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationSub.m; sourceTree = "<group>"; };
+		F8C6F61C1FF3483C009F8244 /* OperationMul.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationMul.h; sourceTree = "<group>"; };
+		F8C6F61D1FF3483C009F8244 /* OperationMul.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationMul.m; sourceTree = "<group>"; };
+		F8C6F61F1FF3484E009F8244 /* OperationDiv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationDiv.h; sourceTree = "<group>"; };
+		F8C6F6201FF3484E009F8244 /* OperationDiv.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationDiv.m; sourceTree = "<group>"; };
+		F8C6F6221FF34863009F8244 /* OperationFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationFactory.h; sourceTree = "<group>"; };
+		F8C6F6231FF34863009F8244 /* OperationFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationFactory.m; sourceTree = "<group>"; };
+		F8C6F6261FF349D7009F8244 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8C6F6281FF34C1B009F8244 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8C6F62A1FF351A5009F8244 /* DesignPatterns-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesignPatterns-Prefix.pch"; sourceTree = "<group>"; };
+		F8C6F62B1FF372CD009F8244 /* SimpleFactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleFactoryTests.m; sourceTree = "<group>"; };
+		F8C6F62F1FF39312009F8244 /* CashSuper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashSuper.h; sourceTree = "<group>"; };
+		F8C6F6301FF39312009F8244 /* CashSuper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashSuper.m; sourceTree = "<group>"; };
+		F8C6F6321FF3936E009F8244 /* CashNormal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashNormal.h; sourceTree = "<group>"; };
+		F8C6F6331FF3936E009F8244 /* CashNormal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashNormal.m; sourceTree = "<group>"; };
+		F8C6F6351FF39470009F8244 /* CashRebate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashRebate.h; sourceTree = "<group>"; };
+		F8C6F6361FF39470009F8244 /* CashRebate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashRebate.m; sourceTree = "<group>"; };
+		F8C6F6381FF39528009F8244 /* CashReturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashReturn.h; sourceTree = "<group>"; };
+		F8C6F6391FF39528009F8244 /* CashReturn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashReturn.m; sourceTree = "<group>"; };
+		F8C6F63B1FF395DD009F8244 /* CashContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashContext.h; sourceTree = "<group>"; };
+		F8C6F63C1FF395DD009F8244 /* CashContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashContext.m; sourceTree = "<group>"; };
+		F8C6F63F1FF39A3F009F8244 /* StrategyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyTests.m; sourceTree = "<group>"; };
+		F8C6F6421FF3DFB5009F8244 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F8C6F6431FF3DFB5009F8244 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		F8C6F6451FF3DFCC009F8244 /* Finery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Finery.h; sourceTree = "<group>"; };
+		F8C6F6461FF3DFCC009F8244 /* Finery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Finery.m; sourceTree = "<group>"; };
+		F8C6F6481FF3E5FE009F8244 /* TShirts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TShirts.h; sourceTree = "<group>"; };
+		F8C6F6491FF3E5FE009F8244 /* TShirts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TShirts.m; sourceTree = "<group>"; };
+		F8C6F64B1FF3E703009F8244 /* BigTrouser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigTrouser.h; sourceTree = "<group>"; };
+		F8C6F64C1FF3E703009F8244 /* BigTrouser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigTrouser.m; sourceTree = "<group>"; };
+		F8C6F64E1FF3E74B009F8244 /* Sneakers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sneakers.h; sourceTree = "<group>"; };
+		F8C6F64F1FF3E74B009F8244 /* Sneakers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sneakers.m; sourceTree = "<group>"; };
+		F8C6F6521FF3E7A3009F8244 /* DecoratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoratorTests.m; sourceTree = "<group>"; };
+		F8C6F6551FF3FC55009F8244 /* GiveGift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiveGift.h; sourceTree = "<group>"; };
+		F8C6F6561FF3FCEB009F8244 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F8C6F6571FF3FD82009F8244 /* Proxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Proxy.h; sourceTree = "<group>"; };
+		F8C6F6581FF3FD82009F8244 /* Proxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Proxy.m; sourceTree = "<group>"; };
+		F8C6F65A1FF3FE03009F8244 /* SchoolGirl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolGirl.h; sourceTree = "<group>"; };
+		F8C6F65B1FF3FE03009F8244 /* SchoolGirl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolGirl.m; sourceTree = "<group>"; };
+		F8C6F65D1FF3FE4F009F8244 /* Pursuit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pursuit.h; sourceTree = "<group>"; };
+		F8C6F65E1FF3FE4F009F8244 /* Pursuit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pursuit.m; sourceTree = "<group>"; };
+		F8C6F6611FF67426009F8244 /* ILeiFeng.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILeiFeng.h; sourceTree = "<group>"; };
+		F8C6F6621FF6747A009F8244 /* UndergraduateFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UndergraduateFactory.h; sourceTree = "<group>"; };
+		F8C6F6631FF6747A009F8244 /* UndergraduateFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UndergraduateFactory.m; sourceTree = "<group>"; };
+		F8C6F6651FF6751C009F8244 /* Undergraduate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Undergraduate.h; sourceTree = "<group>"; };
+		F8C6F6661FF6751C009F8244 /* Undergraduate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Undergraduate.m; sourceTree = "<group>"; };
+		F8C6F6681FF6753E009F8244 /* ILeiFengFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILeiFengFactory.h; sourceTree = "<group>"; };
+		F8C6F66A1FF67A67009F8244 /* ProxyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyTests.m; sourceTree = "<group>"; };
+		F8C6F66D1FF67D39009F8244 /* FactoryMethodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryMethodTests.m; sourceTree = "<group>"; };
+		F8C6F66F1FF67EA1009F8244 /* Volunteer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Volunteer.h; sourceTree = "<group>"; };
+		F8C6F6701FF67EA1009F8244 /* Volunteer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Volunteer.m; sourceTree = "<group>"; };
+		F8C6F6721FF67EF1009F8244 /* VolunteerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VolunteerFactory.h; sourceTree = "<group>"; };
+		F8C6F6731FF67EF1009F8244 /* VolunteerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VolunteerFactory.m; sourceTree = "<group>"; };
+		F8C6F6761FFBDC36009F8244 /* FineryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FineryProtocol.h; sourceTree = "<group>"; };
+		F8C6F6771FFBDCD2009F8244 /* NewFinery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewFinery.h; sourceTree = "<group>"; };
+		F8C6F6781FFBDCD2009F8244 /* NewFinery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewFinery.m; sourceTree = "<group>"; };
+		F8C6F67A1FFBDE1A009F8244 /* NewPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewPerson.h; sourceTree = "<group>"; };
+		F8C6F67B1FFBDE1A009F8244 /* NewPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewPerson.m; sourceTree = "<group>"; };
+		F8C6F67D1FFBDFDC009F8244 /* NewTShirts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewTShirts.h; sourceTree = "<group>"; };
+		F8C6F67E1FFBDFDC009F8244 /* NewTShirts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewTShirts.m; sourceTree = "<group>"; };
+		F8C6F6801FFBDFED009F8244 /* NewBigTrouser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewBigTrouser.h; sourceTree = "<group>"; };
+		F8C6F6811FFBDFED009F8244 /* NewBigTrouser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewBigTrouser.m; sourceTree = "<group>"; };
+		F8C6F6831FFBDFFC009F8244 /* NewSneakers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewSneakers.h; sourceTree = "<group>"; };
+		F8C6F6841FFBDFFC009F8244 /* NewSneakers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewSneakers.m; sourceTree = "<group>"; };
+		F8C6F6871FFCCE1C009F8244 /* Resume.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Resume.h; sourceTree = "<group>"; };
+		F8C6F6881FFCCE1C009F8244 /* Resume.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Resume.m; sourceTree = "<group>"; };
+		F8C6F68A1FFCD0A9009F8244 /* WorkExperience.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkExperience.h; sourceTree = "<group>"; };
+		F8C6F68B1FFCD0A9009F8244 /* WorkExperience.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkExperience.m; sourceTree = "<group>"; };
+		F8C6F68E1FFCD1E1009F8244 /* PrototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypeTests.m; sourceTree = "<group>"; };
+		F8C6F6901FFCDB07009F8244 /* ResumeShallowCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResumeShallowCopy.h; sourceTree = "<group>"; };
+		F8C6F6911FFCDB07009F8244 /* ResumeShallowCopy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResumeShallowCopy.m; sourceTree = "<group>"; };
+		F8C6F6931FFCDBA2009F8244 /* ResumeDeepCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResumeDeepCopy.h; sourceTree = "<group>"; };
+		F8C6F6941FFCDBA2009F8244 /* ResumeDeepCopy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResumeDeepCopy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +211,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8C6F6291FF34C1B009F8244 /* UIKit.framework in Frameworks */,
+				F8C6F6271FF349D7009F8244 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +233,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F86D91C420107F3300E2979E /* TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				F86D91C520107F5A00E2979E /* TestPaper.h */,
+				F86D91C620107F5A00E2979E /* TestPaper.m */,
+				F86D91C82010824500E2979E /* TestPaperStudentA.h */,
+				F86D91C92010824500E2979E /* TestPaperStudentA.m */,
+				F86D91CB2010828C00E2979E /* TestPaperStudentB.h */,
+				F86D91CC2010828C00E2979E /* TestPaperStudentB.m */,
+			);
+			path = TemplateMethod;
+			sourceTree = "<group>";
+		};
+		F86D91CE201082CB00E2979E /* TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				F86D91CF201082FC00E2979E /* TemplateMethodTests.m */,
+			);
+			path = TemplateMethod;
+			sourceTree = "<group>";
+		};
+		F86D91D1201088E400E2979E /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				F86D91D22010897400E2979E /* Fund.h */,
+				F86D91D32010897400E2979E /* Fund.m */,
+				F86D91D5201089F100E2979E /* Investment.h */,
+				F86D91D620108B0D00E2979E /* NationalDebt.h */,
+				F86D91D720108B0D00E2979E /* NationalDebt.m */,
+				F86D91D920108B7900E2979E /* Realty.h */,
+				F86D91DA20108B7900E2979E /* Realty.m */,
+				F86D91DC20108BBC00E2979E /* Stock1.h */,
+				F86D91DD20108BBC00E2979E /* Stock1.m */,
+				F86D91DF20108BC700E2979E /* Stock2.h */,
+				F86D91E020108BC700E2979E /* Stock2.m */,
+				F86D91E220108BD200E2979E /* Stock3.h */,
+				F86D91E320108BD200E2979E /* Stock3.m */,
+				F86D91E520108CA600E2979E /* Investor.h */,
+				F86D91E620108CA600E2979E /* Investor.m */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		F86D91E82010921A00E2979E /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				F86D91E92010922B00E2979E /* FacadeTests.m */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
 		F8C6F5D31FF34158009F8244 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +291,7 @@
 				F8C6F5F71FF34158009F8244 /* TrainingDesignPatternsTests */,
 				F8C6F6021FF34158009F8244 /* TrainingDesignPatternsUITests */,
 				F8C6F5DD1FF34158009F8244 /* Products */,
+				F8C6F6251FF349D7009F8244 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +308,15 @@
 		F8C6F5DE1FF34158009F8244 /* TrainingDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				F86D91D1201088E400E2979E /* Facade */,
+				F8C6F6861FFCCDFE009F8244 /* Prototype */,
+				F8C6F6601FF673B1009F8244 /* FactoryMethod */,
+				F8C6F6541FF3FC33009F8244 /* Proxy */,
+				F8C6F6411FF3DF92009F8244 /* Decorator */,
+				F8C6F6751FFBDBB2009F8244 /* AnotherDecorator */,
+				F8C6F6121FF347C2009F8244 /* SimpleFactory */,
+				F86D91C420107F3300E2979E /* TemplateMethod */,
+				F8C6F62E1FF392DF009F8244 /* Strategy */,
 				F8C6F5DF1FF34158009F8244 /* AppDelegate.h */,
 				F8C6F5E01FF34158009F8244 /* AppDelegate.m */,
 				F8C6F5E21FF34158009F8244 /* ViewController.h */,
@@ -110,6 +326,8 @@
 				F8C6F5EA1FF34158009F8244 /* LaunchScreen.storyboard */,
 				F8C6F5ED1FF34158009F8244 /* Info.plist */,
 				F8C6F5EE1FF34158009F8244 /* main.m */,
+				F8C6F62A1FF351A5009F8244 /* DesignPatterns-Prefix.pch */,
+				F8C6F6561FF3FCEB009F8244 /* README.md */,
 			);
 			path = TrainingDesignPatterns;
 			sourceTree = "<group>";
@@ -117,6 +335,14 @@
 		F8C6F5F71FF34158009F8244 /* TrainingDesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				F86D91E82010921A00E2979E /* Facade */,
+				F86D91CE201082CB00E2979E /* TemplateMethod */,
+				F8C6F68D1FFCD1D0009F8244 /* Prototype */,
+				F8C6F66C1FF67D22009F8244 /* FactoryMethod */,
+				F8C6F6691FF67A49009F8244 /* Proxy */,
+				F8C6F6511FF3E777009F8244 /* Decorator */,
+				F8C6F63E1FF39A26009F8244 /* Strategy */,
+				F8C6F62D1FF3730B009F8244 /* SimpleFactory */,
 				F8C6F5F81FF34158009F8244 /* TrainingDesignPatternsTests.m */,
 				F8C6F5FA1FF34158009F8244 /* Info.plist */,
 			);
@@ -130,6 +356,180 @@
 				F8C6F6051FF34158009F8244 /* Info.plist */,
 			);
 			path = TrainingDesignPatternsUITests;
+			sourceTree = "<group>";
+		};
+		F8C6F6121FF347C2009F8244 /* SimpleFactory */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6F6131FF347FC009F8244 /* Operation.h */,
+				F8C6F6141FF347FC009F8244 /* Operation.m */,
+				F8C6F6161FF34818009F8244 /* OperationAdd.h */,
+				F8C6F6171FF34818009F8244 /* OperationAdd.m */,
+				F8C6F6191FF3482B009F8244 /* OperationSub.h */,
+				F8C6F61A1FF3482B009F8244 /* OperationSub.m */,
+				F8C6F61C1FF3483C009F8244 /* OperationMul.h */,
+				F8C6F61D1FF3483C009F8244 /* OperationMul.m */,
+				F8C6F61F1FF3484E009F8244 /* OperationDiv.h */,
+				F8C6F6201FF3484E009F8244 /* OperationDiv.m */,
+				F8C6F6221FF34863009F8244 /* OperationFactory.h */,
+				F8C6F6231FF34863009F8244 /* OperationFactory.m */,
+			);
+			path = SimpleFactory;
+			sourceTree = "<group>";
+		};
+		F8C6F6251FF349D7009F8244 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6F6281FF34C1B009F8244 /* UIKit.framework */,
+				F8C6F6261FF349D7009F8244 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8C6F62D1FF3730B009F8244 /* SimpleFactory */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6F62B1FF372CD009F8244 /* SimpleFactoryTests.m */,
+			);
+			path = SimpleFactory;
+			sourceTree = "<group>";
+		};
+		F8C6F62E1FF392DF009F8244 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6F62F1FF39312009F8244 /* CashSuper.h */,
+				F8C6F6301FF39312009F8244 /* CashSuper.m */,
+				F8C6F6321FF3936E009F8244 /* CashNormal.h */,
+				F8C6F6331FF3936E009F8244 /* CashNormal.m */,
+				F8C6F6351FF39470009F8244 /* CashRebate.h */,
+				F8C6F6361FF39470009F8244 /* CashRebate.m */,
+				F8C6F6381FF39528009F8244 /* CashReturn.h */,
+				F8C6F6391FF39528009F8244 /* CashReturn.m */,
+				F8C6F63B1FF395DD009F8244 /* CashContext.h */,
+				F8C6F63C1FF395DD009F8244 /* CashContext.m */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		F8C6F63E1FF39A26009F8244 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6F63F1FF39A3F009F8244 /* StrategyTests.m */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		F8C6F6411FF3DF92009F8244 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6F6421FF3DFB5009F8244 /* Person.h */,
+				F8C6F6431FF3DFB5009F8244 /* Person.m */,
+				F8C6F6451FF3DFCC009F8244 /* Finery.h */,
+				F8C6F6461FF3DFCC009F8244 /* Finery.m */,
+				F8C6F6481FF3E5FE009F8244 /* TShirts.h */,
+				F8C6F6491FF3E5FE009F8244 /* TShirts.m */,
+				F8C6F64B1FF3E703009F8244 /* BigTrouser.h */,
+				F8C6F64C1FF3E703009F8244 /* BigTrouser.m */,
+				F8C6F64E1FF3E74B009F8244 /* Sneakers.h */,
+				F8C6F64F1FF3E74B009F8244 /* Sneakers.m */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		F8C6F6511FF3E777009F8244 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6F6521FF3E7A3009F8244 /* DecoratorTests.m */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		F8C6F6541FF3FC33009F8244 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6F6551FF3FC55009F8244 /* GiveGift.h */,
+				F8C6F6571FF3FD82009F8244 /* Proxy.h */,
+				F8C6F6581FF3FD82009F8244 /* Proxy.m */,
+				F8C6F65A1FF3FE03009F8244 /* SchoolGirl.h */,
+				F8C6F65B1FF3FE03009F8244 /* SchoolGirl.m */,
+				F8C6F65D1FF3FE4F009F8244 /* Pursuit.h */,
+				F8C6F65E1FF3FE4F009F8244 /* Pursuit.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		F8C6F6601FF673B1009F8244 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6F6611FF67426009F8244 /* ILeiFeng.h */,
+				F8C6F6651FF6751C009F8244 /* Undergraduate.h */,
+				F8C6F6661FF6751C009F8244 /* Undergraduate.m */,
+				F8C6F66F1FF67EA1009F8244 /* Volunteer.h */,
+				F8C6F6701FF67EA1009F8244 /* Volunteer.m */,
+				F8C6F6681FF6753E009F8244 /* ILeiFengFactory.h */,
+				F8C6F6621FF6747A009F8244 /* UndergraduateFactory.h */,
+				F8C6F6631FF6747A009F8244 /* UndergraduateFactory.m */,
+				F8C6F6721FF67EF1009F8244 /* VolunteerFactory.h */,
+				F8C6F6731FF67EF1009F8244 /* VolunteerFactory.m */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		F8C6F6691FF67A49009F8244 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6F66A1FF67A67009F8244 /* ProxyTests.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		F8C6F66C1FF67D22009F8244 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6F66D1FF67D39009F8244 /* FactoryMethodTests.m */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		F8C6F6751FFBDBB2009F8244 /* AnotherDecorator */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6F6761FFBDC36009F8244 /* FineryProtocol.h */,
+				F8C6F6771FFBDCD2009F8244 /* NewFinery.h */,
+				F8C6F6781FFBDCD2009F8244 /* NewFinery.m */,
+				F8C6F67A1FFBDE1A009F8244 /* NewPerson.h */,
+				F8C6F67B1FFBDE1A009F8244 /* NewPerson.m */,
+				F8C6F67D1FFBDFDC009F8244 /* NewTShirts.h */,
+				F8C6F67E1FFBDFDC009F8244 /* NewTShirts.m */,
+				F8C6F6801FFBDFED009F8244 /* NewBigTrouser.h */,
+				F8C6F6811FFBDFED009F8244 /* NewBigTrouser.m */,
+				F8C6F6831FFBDFFC009F8244 /* NewSneakers.h */,
+				F8C6F6841FFBDFFC009F8244 /* NewSneakers.m */,
+			);
+			path = AnotherDecorator;
+			sourceTree = "<group>";
+		};
+		F8C6F6861FFCCDFE009F8244 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6F6871FFCCE1C009F8244 /* Resume.h */,
+				F8C6F6881FFCCE1C009F8244 /* Resume.m */,
+				F8C6F68A1FFCD0A9009F8244 /* WorkExperience.h */,
+				F8C6F68B1FFCD0A9009F8244 /* WorkExperience.m */,
+				F8C6F6901FFCDB07009F8244 /* ResumeShallowCopy.h */,
+				F8C6F6911FFCDB07009F8244 /* ResumeShallowCopy.m */,
+				F8C6F6931FFCDBA2009F8244 /* ResumeDeepCopy.h */,
+				F8C6F6941FFCDBA2009F8244 /* ResumeDeepCopy.m */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+		F8C6F68D1FFCD1D0009F8244 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6F68E1FFCD1E1009F8244 /* PrototypeTests.m */,
+			);
+			path = Prototype;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +665,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8C6F6471FF3DFCC009F8244 /* Finery.m in Sources */,
+				F8C6F6951FFCDBA2009F8244 /* ResumeDeepCopy.m in Sources */,
+				F86D91C720107F5A00E2979E /* TestPaper.m in Sources */,
+				F8C6F65C1FF3FE03009F8244 /* SchoolGirl.m in Sources */,
+				F8C6F67F1FFBDFDC009F8244 /* NewTShirts.m in Sources */,
+				F8C6F65F1FF3FE4F009F8244 /* Pursuit.m in Sources */,
+				F8C6F61E1FF3483C009F8244 /* OperationMul.m in Sources */,
+				F8C6F6501FF3E74B009F8244 /* Sneakers.m in Sources */,
+				F8C6F6671FF6751C009F8244 /* Undergraduate.m in Sources */,
+				F8C6F6371FF39470009F8244 /* CashRebate.m in Sources */,
+				F86D91E420108BD200E2979E /* Stock3.m in Sources */,
+				F8C6F6741FF67EF1009F8244 /* VolunteerFactory.m in Sources */,
+				F8C6F6711FF67EA1009F8244 /* Volunteer.m in Sources */,
+				F86D91DE20108BBC00E2979E /* Stock1.m in Sources */,
+				F8C6F6921FFCDB07009F8244 /* ResumeShallowCopy.m in Sources */,
+				F8C6F61B1FF3482B009F8244 /* OperationSub.m in Sources */,
 				F8C6F5E41FF34158009F8244 /* ViewController.m in Sources */,
+				F86D91E120108BC700E2979E /* Stock2.m in Sources */,
+				F8C6F67C1FFBDE1A009F8244 /* NewPerson.m in Sources */,
+				F8C6F6341FF3936E009F8244 /* CashNormal.m in Sources */,
+				F8C6F6791FFBDCD2009F8244 /* NewFinery.m in Sources */,
+				F8C6F68C1FFCD0A9009F8244 /* WorkExperience.m in Sources */,
 				F8C6F5EF1FF34158009F8244 /* main.m in Sources */,
+				F8C6F64D1FF3E703009F8244 /* BigTrouser.m in Sources */,
+				F8C6F6641FF6747A009F8244 /* UndergraduateFactory.m in Sources */,
+				F86D91CA2010824500E2979E /* TestPaperStudentA.m in Sources */,
 				F8C6F5E11FF34158009F8244 /* AppDelegate.m in Sources */,
+				F8C6F63A1FF39528009F8244 /* CashReturn.m in Sources */,
+				F86D91CD2010828C00E2979E /* TestPaperStudentB.m in Sources */,
+				F86D91D42010897400E2979E /* Fund.m in Sources */,
+				F8C6F6891FFCCE1C009F8244 /* Resume.m in Sources */,
+				F8C6F64A1FF3E5FE009F8244 /* TShirts.m in Sources */,
+				F8C6F63D1FF395DD009F8244 /* CashContext.m in Sources */,
+				F8C6F6851FFBDFFC009F8244 /* NewSneakers.m in Sources */,
+				F86D91E720108CA600E2979E /* Investor.m in Sources */,
+				F86D91DB20108B7900E2979E /* Realty.m in Sources */,
+				F8C6F6821FFBDFED009F8244 /* NewBigTrouser.m in Sources */,
+				F8C6F6241FF34863009F8244 /* OperationFactory.m in Sources */,
+				F8C6F6211FF3484E009F8244 /* OperationDiv.m in Sources */,
+				F8C6F6151FF347FC009F8244 /* Operation.m in Sources */,
+				F8C6F6591FF3FD82009F8244 /* Proxy.m in Sources */,
+				F8C6F6441FF3DFB5009F8244 /* Person.m in Sources */,
+				F8C6F6311FF39312009F8244 /* CashSuper.m in Sources */,
+				F86D91D820108B0D00E2979E /* NationalDebt.m in Sources */,
+				F8C6F6181FF34818009F8244 /* OperationAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +717,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86D91D0201082FC00E2979E /* TemplateMethodTests.m in Sources */,
+				F8C6F66B1FF67A67009F8244 /* ProxyTests.m in Sources */,
+				F8C6F6401FF39A3F009F8244 /* StrategyTests.m in Sources */,
+				F8C6F68F1FFCD1E1009F8244 /* PrototypeTests.m in Sources */,
+				F8C6F6531FF3E7A3009F8244 /* DecoratorTests.m in Sources */,
+				F8C6F62C1FF372CE009F8244 /* SimpleFactoryTests.m in Sources */,
 				F8C6F5F91FF34158009F8244 /* TrainingDesignPatternsTests.m in Sources */,
+				F8C6F66E1FF67D39009F8244 /* FactoryMethodTests.m in Sources */,
+				F86D91EA2010922B00E2979E /* FacadeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +881,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainingDesignPatterns/DesignPatterns-Prefix.pch";
 				INFOPLIST_FILE = TrainingDesignPatterns/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "persist-in.TrainingDesignPatterns";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +898,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainingDesignPatterns/DesignPatterns-Prefix.pch";
 				INFOPLIST_FILE = TrainingDesignPatterns/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "persist-in.TrainingDesignPatterns";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -457,6 +915,8 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainingDesignPatterns/DesignPatterns-Prefix.pch";
 				INFOPLIST_FILE = TrainingDesignPatternsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "persist-in.TrainingDesignPatternsTests";
@@ -471,6 +931,8 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainingDesignPatterns/DesignPatterns-Prefix.pch";
 				INFOPLIST_FILE = TrainingDesignPatternsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "persist-in.TrainingDesignPatternsTests";
